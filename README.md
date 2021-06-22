@@ -1,6 +1,6 @@
 # Running Red Hat 5.2 (1998) with QEMU
 
-This is an extension to Marcos David's blogpost from 2014 which can be found [here](https://marcosgildavid.blogspot.com/2014/07/remembering-red-hat-linux-52-from-1998.html).  
+This is an extension to Marcos David's blog post from 2014 which can be found [here](https://marcosgildavid.blogspot.com/2014/07/remembering-red-hat-linux-52-from-1998.html).  
 All steps to create a functional Red Hat 5.2 machine with network support are listed below.
 
 ---
@@ -19,7 +19,7 @@ All steps to create a functional Red Hat 5.2 machine with network support are li
 The installation prompts you several times. Format: `WINDOW HEADLINE (OPTION) - CHOICE`.
 1. Welcome to Red Hat Linux! - `ENTER`
 2. Red Hat Linux - `Ok`
-3. Choose a language (`english`) - `Ok`
+3. Choose a language (`English`) - `Ok`
 4. Keyboard Type (`us`) - `Ok`
 5. Installation Method (`Local CDROM`) - `Ok`
 6. Insert your Red Hat CD - `Ok`
@@ -64,7 +64,7 @@ Since `ftp` is already installed we use it to get `nc`.
 6. Exit the ftp server with `exit`
 7. Install `nc` with `rpm -i nc-1.10-1.i386.rpm`
 
-From now on you can transfer files from and to your hostmachine via Netcat as described [here](https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/).
+From now on you can transfer files from and to your host machine via Netcat as described [here](https://nakkaya.com/2009/04/15/using-netcat-for-file-transfers/).
 
 ---
 
